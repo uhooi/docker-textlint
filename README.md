@@ -20,7 +20,7 @@ $ docker pull uhooi/textlint:latest
 ```bash
 # Output textlint version
 $ docker run --rm uhooi/textlint --version
-TBD
+v11.6.1
 
 # Run textlint example
 $ docker run --rm -v $PWD:/work uhooi/textlint --plugin review --preset preset-ja-technical-writing --fix --config .textlintrc foo.re
