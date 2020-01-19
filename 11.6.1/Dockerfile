@@ -7,7 +7,7 @@ RUN set -x && \
     npm install -g textlint@${VERSION} \
     textlint-rule-preset-ja-technical-writing@3.1.3 \
     textlint-filter-rule-comments@1.2.2 \
-    textlint-plugin-review@0.4.0 && \
+    textlint-plugin-review@0.4.0 \
     power-assert@1.6.1 && \
     npm cache clean --force
 
